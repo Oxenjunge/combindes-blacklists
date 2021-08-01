@@ -54,4 +54,111 @@ Regex blacklist
 Regex blacklist
 ^aff(iliat(es?|ion))?[_.-]	
 Regex blacklist
-^analytics?[_.-]
+^analytics?[_.-]	
+Regex blacklist
+^banners?[_.-]	
+Regex blacklist
+^beacons?[0-9]*[_.-]	
+Regex blacklist
+^count(ers?)?[0-9]*[_.-]	
+Regex blacklist
+^mads\.	
+Regex blacklist
+^pixels?[-.]	
+Regex blacklist
+^stat(s|istics)?[0-9]*[_.-]	
+Regex blacklist
+www6.smartadserver.com	
+Exact blacklist
+www.www6.smartadserver.com	
+Exact blacklist
+smartadserver.com	
+Exact blacklist
+www.smartadserver.com	
+Exact blacklist
+creatives.sascdn.com	
+Exact blacklist
+www.creatives.sascdn.com	
+Exact blacklist
+^https?://([A-Za-z0-9.-]*\.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/	
+Regex blacklist
+^https?://([A-Za-z0-9.-]*\.)?scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4})/	
+Regex blacklist
+^https?://([A-Za-z0-9.-]*\.)?googlesyndication(\.\w{2}\.\w{2}|\.\w{2,4})/	
+Regex blacklist
+^https?://([A-Za-z0-9.-]*\.)?adnxs(\.\w{2}\.\w{2}|\.\w{2,4})/	
+Regex blacklist
+^https?://([A-Za-z0-9.-]*\.)?advertising\.com/	
+Regex blacklist
+(\.|^)safeframe\.googlesyndication\.com$	
+Regex blacklist
+(\.|^)smaato\.net$	
+Regex blacklist
+(\.|^)fastclick\.net&	
+Regex blacklist
+(\.|^)googleadservices\.com$	
+Regex blacklist
+(\.|^)googlesyndication\.com$	
+Regex blacklist
+(\.|^)google-analytics\.com$	
+Regex blacklist
+ib.adnxs.com	
+Exact blacklist
+Added from Query Log
+www.gaming-adult.com	
+Exact blacklist
+Added from Query Log
+(\.|^)ib\.adnxs-simple\.com$	
+Regex blacklist
+ams1-ib.adnxs-simple.com	
+Exact blacklist
+www.ams1-ib.adnxs-simple.com	
+Exact blacklist
+beacons5.gvt3.com	
+Exact blacklist
+Added from Query Log
+www.pagead2.googlesyndication.com	
+Exact blacklist
+pagead2.googlesyndication.com	
+Exact blacklist
+pagead2.googleadservices.com	
+Exact blacklist
+www.pagead2.googleadservices.com	
+Exact blacklist
+aan.amazon.com	
+Exact blacklist
+www.aan.amazon.com	
+Exact blacklist
+c.amazon-adsystem.com	
+Exact blacklist
+mads.amazon-adsystem.com	
+Exact blacklist
+google-analytics.com	
+Exact blacklist
+pixel.facebook.com	
+Exact blacklist
+analytics.facebook.com	
+Exact blacklist
+ads.facebook.com	
+Exact blacklist
+static.ads-twitter.com	
+Exact blacklist
+samsungads.com	
+Exact blacklist
+smetrics.samsung.com	
+Exact blacklist
+business.samsungusa.com	
+Exact blacklist
+analytics-api.samsunghealthcn.com	
+Exact blacklist
+config.samsungads.com	
+Exact blacklist
+securemetrics.apple.com	
+Exact blacklist
+supportmetrics.apple.com	
+Exact blacklist
+metrics.icloud.com	
+Exact blacklist
+metrics.mzstatic.com	
+Exact blacklist
+d.adup-tech.com
