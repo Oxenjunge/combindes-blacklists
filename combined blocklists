@@ -34,3 +34,24 @@ supportmetrics.apple.com (enabled, last modified Mon, 28 Jun 2021 17:41:02 +0100
 metrics.icloud.com (enabled, last modified Mon, 28 Jun 2021 17:41:11 +0100)
 metrics.mzstatic.com
 d.adup-tech.com (enabled, last modified Mon, 12 Jul 2021 17:28:20 +0100)
+
+
+adclick.g.doubleclick.net	
+Exact blacklist
+www.adclick.g.doubleclick.net	
+Exact blacklist
+^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]	
+Regex blacklist
+^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]	
+Regex blacklist
+^(.+[_.-])?telemetry[_.-]	
+Regex blacklist
+^adim(age|g)s?[0-9]*[_.-]	
+Regex blacklist
+^adtrack(er|ing)?[0-9]*[_.-]	
+Regex blacklist
+^advert(s|is(ing|ements?))?[0-9]*[_.-]	
+Regex blacklist
+^aff(iliat(es?|ion))?[_.-]	
+Regex blacklist
+^analytics?[_.-]
